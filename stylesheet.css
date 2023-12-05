@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+p,button{
+    margin-left: 20px;
+}
+#form-container{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    border: 1px  solid blue;
+}
+#left-subcontainer{
+    width: 40%;
+}
+#right-subcontainer{
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+#halie-img{
+    width: 100%;
+}
+
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+form{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+#form-input{
+    display: grid;
+    grid-template-rows: auto auto  auto;
+    grid-template-columns: auto auto;
+}
+input{
+    width: 300px;
+}
+#create-account-form{
+    margin-left: 20px;
+}
